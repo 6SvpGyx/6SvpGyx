@@ -1,0 +1,16 @@
+body,h3,h4{
+	margin: 0;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+img{
+	vertical-align: top;
+}

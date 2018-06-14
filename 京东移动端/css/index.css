@@ -1,0 +1,1072 @@
+html,
+body {
+  height: 100%;
+}
+html {
+  overflow: hidden;
+}
+body {
+  overflow: auto;
+  background: #f5f5f5;
+}
+.main-head {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.6666666rem;
+  background: pink;
+  position: absolute;
+  padding-top: 0.7222222rem;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.main-head .search-left {
+  float: left;
+  width: 0.7685185rem;
+  height: 0.8703703rem;
+  margin-left: 0.1944444rem;
+}
+.main-head .search-left .sweep-ico {
+  display: block;
+  width: 0.7685185rem;
+  height: 0.574074rem;
+  background: url(../img/sweet-icon.png) 0.1574074rem 0 no-repeat;
+  background-size: 0.5rem 0.4814814rem;
+}
+.main-head .search-left .sweep {
+  display: block;
+  font-size: 0.2407407rem;
+  color: #FFFFFF;
+  line-height: 0.2962962rem;
+}
+.main-head .search-box {
+  float: left;
+  width: 7.4259259rem;
+  height: 0.824074rem;
+  background: #FFFFFF;
+  border-radius: 0.412037rem;
+  margin-left: 0.2222222rem;
+}
+.main-head .search-box .search-ico {
+  vertical-align: top;
+  display: inline-block;
+  width: 0.3981481rem;
+  height: 0.3981481rem;
+  background: url(../img/search-ico.png) no-repeat;
+  margin: 0.2129629rem 0.2777777rem 0 0.324074rem;
+  background-size: 100%;
+}
+.main-head .search-box .search {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 0.3148148rem;
+  line-height: 0.824074rem;
+  color: #9b9b9b;
+}
+.main-head .search-box .robot {
+  vertical-align: top;
+  display: inline-block;
+  width: 0.4814814rem;
+  height: 0.5462962rem;
+  background: url(../img/robot.png) no-repeat;
+  margin-top: 0.1388888rem;
+}
+.main-head .search-right {
+  float: left;
+  text-align: center;
+  width: 0.537037rem;
+  height: 0.8888888rem;
+  margin-left: 47px;
+}
+.main-head .search-right .advices-ico {
+  display: block;
+  width: 0.537037rem;
+  height: 0.5185185rem;
+  background: url(../img/advic-ico.png) no-repeat;
+  background-size: 100%;
+}
+.main-head .search-right .advices {
+  display: block;
+  font-size: 0.2314814rem;
+  color: #FFFFFF;
+  line-height: 0.2962962rem;
+}
+.head-jpg {
+  display: block;
+  width: 100%;
+  height: 4.4907407rem;
+  background: url(../img/lunbot.png) no-repeat;
+  background-size: 100%;
+}
+.activity {
+  display: block;
+  width: 100%;
+  height: 2.6018518rem;
+  background: url(../img/add.png) no-repeat;
+  background-size: 100%;
+}
+section {
+  width: 100%;
+}
+section .nav-type {
+  line-height: 0.6574074rem;
+  font-size: 0.2962962rem;
+  text-align: center;
+  color: #848689;
+  width: 100%;
+  height: 3.5833333rem;
+  margin: auto;
+  margin-top: 0.324074rem;
+}
+section .nav-type .ico {
+  width: 1.0648148rem;
+  height: 1.0648148rem;
+  display: block;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+section .nav-type .nav-top {
+  width: 100%;
+  height: 1.7222222rem;
+}
+section .nav-type .nav-top li {
+  float: left;
+  width: 20%;
+  height: 1.7222222rem;
+}
+section .nav-type .nav-top li .market-ico {
+  background: url(../img/market.png);
+  background-size: 100%;
+}
+section .nav-type .nav-top li .weiping-ico {
+  background: url(../img/weiping.png);
+  background-size: 100%;
+}
+section .nav-type .nav-top li .costume-ico {
+  background: url(../img/cos.png);
+  background-size: 100%;
+}
+section .nav-type .nav-top li .fresh-ico {
+  background: url(../img/fresh.png);
+  background-size: 100%;
+}
+section .nav-type .nav-top li .family-ico {
+  background: url(../img/family.png);
+  background-size: 100%;
+}
+section .nav-type .nav-bottom {
+  width: 100%;
+  height: 1.7222222rem;
+}
+section .nav-type .nav-bottom li {
+  box-sizing: border-box;
+  padding-top: 0.1388888rem;
+  float: left;
+  width: 20%;
+  height: 1.7222222rem;
+}
+section .nav-type .nav-bottom li .fee-ico {
+  background: url(../img/fee.png);
+  background-size: 100%;
+}
+section .nav-type .nav-bottom li .bean-ico {
+  background: url(../img/get.png);
+  background-size: 100%;
+}
+section .nav-type .nav-bottom li .roll-ico {
+  background: url(../img/roll.png);
+  background-size: 100%;
+}
+section .nav-type .nav-bottom li .money-ico {
+  background: url(../img/money.png);
+  background-size: 100%;
+}
+section .nav-type .nav-bottom li .member-ico {
+  background: url(../img/member.png);
+  background-size: 100%;
+}
+section .nav-button {
+  width: 0.3888888rem;
+  height: 0.1296296rem;
+  margin: auto;
+  margin-top: 0.074074rem;
+}
+section .nav-button .left-button {
+  float: left;
+  width: 0.1296296rem;
+  height: 0.1296296rem;
+  background: url(../img/left-button.png) no-repeat;
+  background-size: 100%;
+}
+section .nav-button .right-button {
+  float: right;
+  width: 0.1296296rem;
+  height: 0.0555555rem;
+  background: url(../img/right-button.png) no-repeat;
+  background-size: 100%;
+  margin-top: 0.037037rem;
+}
+section .bulletin {
+  box-sizing: border-box;
+  padding-left: 0.2685185rem;
+  width: 9.4629629rem;
+  height: 0.7962962rem;
+  background: #FFFFFF;
+  margin: auto;
+  border-radius: 0.3981481rem;
+  margin-top: 0.3981481rem;
+}
+section .bulletin .bulletin-title {
+  float: left;
+  width: 1.6574074rem;
+  height: 0.324074rem;
+  background: url(../img/title.png) no-repeat;
+  background-size: 100%;
+  margin-top: 0.2314814rem;
+}
+section .bulletin .hot {
+  float: left;
+  font-size: 0.2592592rem;
+  color: #f15353;
+  line-height: 0.7962962rem;
+  margin: 0 14px 0 0.1574074rem;
+}
+section .bulletin .bulletin-content {
+  float: left;
+  font-size: 0.3148148rem;
+  color: #111111;
+  line-height: 0.7962962rem;
+  margin-right: 0.3425925rem;
+}
+section .bulletin .more {
+  float: left;
+  font-size: 0.2962962rem;
+  line-height: 0.2962962rem;
+  border-left: 1px solid #999999;
+  margin: 0.2314814rem 0 0 0;
+  padding-left: 0.3425925rem;
+}
+section .main {
+  padding-bottom: 2.7777777rem;
+  width: 100%;
+}
+section .main .main-top {
+  width: 100%;
+  height: 6.4351851rem;
+  margin-top: 0.2685185rem;
+  background: #ffffff;
+}
+section .main .main-top .one-tier {
+  width: 100%;
+  height: 3.2037037rem;
+  border-bottom: 3px solid #f5f5f5;
+}
+section .main .main-top .one-tier .left-seckill,
+section .main .main-top .one-tier .right-find {
+  box-sizing: border-box;
+  padding-left: 0.25rem;
+  width: 50%;
+  height: 3.2037037rem;
+  float: left;
+}
+section .main .main-top .one-tier .left-seckill {
+  width: 4.9722222rem;
+  border-right: 3px solid #f5f5f5;
+}
+section .main .main-top .one-tier .left-seckill .seckill-head {
+  width: 100%;
+  height: 0.9444444rem;
+}
+section .main .main-top .one-tier .left-seckill .seckill-head .head {
+  float: left;
+  font-size: 0.3796296rem;
+  line-height: 0.9444444rem;
+  color: #ff3d53;
+}
+section .main .main-top .one-tier .left-seckill .seckill-head time {
+  font-weight: bold;
+  float: left;
+  font-size: 0.324074rem;
+  color: #222222;
+  line-height: 0.9444444rem;
+  margin: 0 0.1574074rem 0 0.2314814rem;
+}
+section .main .main-top .one-tier .left-seckill .seckill-head .down {
+  float: left;
+}
+section .main .main-top .one-tier .left-seckill .seckill-head .time-btn {
+  float: left;
+  width: 0.3611111rem;
+  height: 0.324074rem;
+  background: #000000;
+  margin-top: 0.3055555rem;
+  border-radius: 0.074074rem;
+  margin-right: 0.1851851rem;
+  text-align: center;
+  font-size: 0.1851851rem;
+  line-height: 0.324074rem;
+  color: #FFFFFF;
+}
+section .main .main-top .one-tier .left-seckill .seckill-content {
+  width: 4.7222222rem;
+  height: 2.2592592rem;
+}
+section .main .main-top .one-tier .left-seckill .seckill-content li {
+  float: left;
+  width: 1.5277777rem;
+  height: 2.2592592rem;
+  text-align: center;
+}
+section .main .main-top .one-tier .left-seckill .seckill-content li .tea-jpg {
+  display: block;
+  width: 1.4166666rem;
+  height: 1.4351851rem;
+  background: url(../img/tea.png) no-repeat;
+  background-size: 100%;
+}
+section .main .main-top .one-tier .left-seckill .seckill-content li .current {
+  display: block;
+  font-size: 0.25rem;
+  color: #f02f2f;
+  line-height: 0.4722222rem;
+}
+section .main .main-top .one-tier .left-seckill .seckill-content li .original {
+  display: block;
+  width: 0.6481481rem;
+  height: 0.1666666rem;
+  background: url(../img/yuanjia.png) no-repeat;
+  background-size: 100%;
+  margin: auto;
+  margin-top: 0.0462962rem;
+}
+section .main .main-top .one-tier .right-find .find-head {
+  box-sizing: border-box;
+  height: 1.2222222rem;
+  padding: 0.3055555rem 0 0 0.0277777rem;
+}
+section .main .main-top .one-tier .right-find .find-head .title {
+  width: 1.574074rem;
+  height: 0.3796296rem;
+  background: url(../img/find-title.png) no-repeat;
+  background-size: 100%;
+}
+section .main .main-top .one-tier .right-find .find-head .sub-title {
+  font-size: 0.2777777rem;
+  height: 0.537037rem;
+  color: #222222;
+  line-height: 0.537037rem;
+}
+section .main .main-top .one-tier .right-find .find-content {
+  height: 1.9907407rem;
+}
+section .main .main-top .one-tier .right-find .find-content .cap {
+  float: left;
+  width: 1.1759259rem;
+  height: 1.1111111rem;
+  background: url(../img/cap.png) no-repeat;
+  background-size: 100%;
+  margin: 0.4259259rem 0.7962962rem 0 0.574074rem;
+}
+section .main .main-top .one-tier .right-find .find-content .other {
+  float: left;
+  width: 1.4444444rem;
+  height: 0.8333333rem;
+  background: url(../img/other.png) no-repeat;
+  background-size: 100%;
+  margin-top: 0.6111111rem;
+}
+section .main .main-top .two-tier {
+  height: 3.2129629rem;
+}
+section .main .main-top .two-tier .seckill-btn {
+  box-sizing: border-box;
+  padding-left: 0.2777777rem;
+  float: left;
+  width: 2.4722222rem;
+  height: 3.2129629rem;
+  border-right: 0.0277777rem solid #F5F5F5;
+}
+section .main .main-top .two-tier .board-head {
+  box-sizing: border-box;
+  padding-top: 0.3148148rem;
+  width: 2.1944444rem;
+  height: 1.287037rem;
+}
+section .main .main-top .two-tier .board-head .title {
+  display: block;
+  width: 1.5462962rem;
+  height: 0.3796296rem;
+  background: url(../img/borald.png) no-repeat;
+  background-size: 100%;
+}
+section .main .main-top .two-tier .board-head .sub-title {
+  font-size: 0.2777777rem;
+  height: 0.5925925rem;
+  color: #222222;
+  line-height: 0.5925925rem;
+}
+section .main .main-top .two-tier .board-content {
+  height: 1.9166666rem;
+}
+section .main .main-top .two-tier .board-content .lg {
+  display: block;
+  width: 1.7314814rem;
+  height: 1.5rem;
+  background: url(../img/lg.png) no-repeat;
+  background-size: 100%;
+}
+section .main .main-top .two-tier .board-content .lg-title {
+  display: block;
+  font-size: 0.2037037rem;
+  color: #121013;
+  line-height: 0.2037037rem;
+  margin-left: 0.8518518rem;
+}
+section .main .main-top .two-tier .special {
+  box-sizing: border-box;
+  padding-left: 0.2777777rem;
+  float: left;
+  width: 50%;
+  height: 3.2129629rem;
+}
+section .main .main-top .two-tier .special .special-head {
+  box-sizing: border-box;
+  padding-top: 0.3148148rem;
+  width: 4.75rem;
+  height: 1.287037rem;
+}
+section .main .main-top .two-tier .special .special-head .title {
+  display: block;
+  width: 1.5833333rem;
+  height: 0.3796296rem;
+  background: url(../img/specail.png) no-repeat;
+  background-size: 100%;
+}
+section .main .main-top .two-tier .special .special-head .sub-title {
+  display: block;
+  font-size: 0.2777777rem;
+  color: #222222;
+  line-height: 0.5925925rem;
+}
+section .main .main-top .two-tier .special .special-content {
+  width: 4.7222222rem;
+}
+section .main .main-top .two-tier .special .special-content .charger {
+  float: left;
+  width: 1.6203703rem;
+  height: 1.4074074rem;
+  background: url(../img/charger.png) no-repeat;
+  background-size: 100%;
+  margin: 0.3703703rem 0.4722222rem 0 0.324074rem;
+}
+section .main .main-top .two-tier .special .special-content .piano {
+  float: left;
+  width: 1.7129629rem;
+  height: 1.7314814rem;
+  background: url(../img/pialo.png) no-repeat;
+  background-size: 100%;
+  margin-top: 0.0462962rem;
+}
+section .main .east-head {
+  height: 1.0648148rem;
+}
+section .main .east-head .everyday-title {
+  display: block;
+  width: 4.4074074rem;
+  height: 0.7592592rem;
+  background: url(../img/verday.png) no-repeat;
+  background-size: 100%;
+  margin: auto;
+  margin-top: 0.3055555rem;
+}
+section .main .east-head .east-title {
+  display: inline-block;
+  width: 4.6759259rem;
+  height: 0.7777777rem;
+  background: url(../img/east.png) no-repeat;
+  background-size: 100%;
+  margin-left: 2.5092592rem;
+}
+section .main .east-head .more {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0.3055555rem;
+  color: #8b8b8b;
+  line-height: 0.787037rem;
+  margin-top: 0.1574074rem;
+  margin-left: 0.6018518rem;
+}
+section .main .east-head .more-ico {
+  vertical-align: top;
+  float: right;
+  width: 0.3333333rem;
+  height: 0.3333333rem;
+  background: url(../img/more-ico.png) no-repeat;
+  background-size: 100%;
+  margin-right: 0.1481481rem;
+  margin-top: 0.4259259rem;
+}
+section .east-content {
+  width: 100%;
+  height: 6.4351851rem;
+  background: #FFFFFF;
+}
+section .east-content .one-tier {
+  width: 100%;
+  height: 3.2037037rem;
+  border-bottom: 0.0277777rem solid #F5F5F5;
+}
+section .east-content .one-tier .black {
+  float: left;
+  width: 4.9722222rem;
+  height: 3.2037037rem;
+  border-right: 0.0277777rem solid #F5F5F5;
+}
+section .east-content .one-tier .black .head {
+  box-sizing: border-box;
+  padding: 0.25rem 0 0 1.0648148rem;
+  width: 4.9722222rem;
+  height: 0.5277777rem;
+}
+section .east-content .one-tier .black .head .border-btn {
+  float: left;
+  width: 0.537037rem;
+  height: 0.0277777rem;
+  background: #000000;
+  margin-top: 0.25rem;
+}
+section .east-content .one-tier .black .head .title {
+  float: left;
+  font-size: 0.3703703rem;
+  color: #000000;
+  line-height: 0.5277777rem;
+  margin: 0 0.1018518rem 0 0.1203703rem;
+}
+section .east-content .one-tier .black .sub-title {
+  float: left;
+  color: #648eff;
+  font-size: 0.2685185rem;
+  line-height: 0.4259259rem;
+  margin-left: 1.3518518rem;
+}
+section .east-content .one-tier .black .black-content {
+  float: left;
+  width: 3.8518518rem;
+  height: 1.6944444rem;
+  margin: 0.1759259rem 0 0 0.5555555rem;
+}
+section .east-content .one-tier .black .black-content .cap-left {
+  float: left;
+  width: 1.7314814rem;
+  height: 1.6944444rem;
+  background: url(../img/cap-left.png) no-repeat;
+  background-size: 100%;
+  margin-right: 0.3888888rem;
+}
+section .east-content .one-tier .black .black-content .cap-right {
+  float: left;
+  width: 1.7314814rem;
+  height: 1.787037rem;
+  background: url(../img/cap-right.png) no-repeat;
+  background-size: 100%;
+}
+section .east-content .one-tier .work {
+  float: left;
+  width: 50%;
+  height: 3.2037037rem;
+}
+section .east-content .two-tier {
+  width: 100%;
+  height: 3.2129629rem;
+}
+section .east-content .two-tier .phone {
+  box-sizing: border-box;
+  padding-left: 0.2777777rem;
+  padding-top: 0.2407407rem;
+  float: left;
+  width: 2.5rem;
+  height: 3.2129629rem;
+  border-right: 0.0277777rem solid #F5F5F5;
+}
+section .east-content .two-tier .phone .head {
+  width: 2.1944444rem;
+  height: 0.9629629rem;
+}
+section .east-content .two-tier .phone .head .title {
+  display: block;
+  font-size: 0.3796296rem;
+  line-height: 0.5277777rem;
+}
+section .east-content .two-tier .phone .head .sub-title {
+  font-size: 0.2685185rem;
+  line-height: 0.4351851rem;
+  color: #648eff;
+}
+section .east-content .two-tier .phone .phone-content {
+  width: 2.2037037rem;
+  height: 2rem;
+}
+section .east-content .two-tier .phone .phone-content .phone-jpg {
+  display: block;
+  width: 1.4259259rem;
+  height: 1.7222222rem;
+  background: url(../img/phone.png) no-repeat;
+  background-size: 100%;
+  margin: 0.1481481rem 0 0 0.2314814rem;
+}
+section .life-head {
+  width: 4.3981481rem;
+  height: 0.7685185rem;
+  background: url(../img/life-head.png) no-repeat;
+  background-size: 100%;
+  margin: auto;
+  margin-top: 0.2962962rem;
+}
+section .life-content {
+  width: 100%;
+  height: 9.6666666rem;
+  background: #FFFFFF;
+}
+section .life-content .one-tier {
+  width: 100%;
+  height: 3.2037037rem;
+  border-bottom: 0.0277777rem solid #f5f5f5;
+}
+section .life-content .one-tier .play {
+  float: left;
+  width: 4.9722222rem;
+  height: 3.2037037rem;
+  border-right: 0.0277777rem solid #f5f5f5;
+}
+section .life-content .one-tier .play .head {
+  box-sizing: border-box;
+  padding-top: 0.2592592rem;
+  padding-left: 0.2777777rem;
+  width: 100%;
+  height: 1.2129629rem;
+}
+section .life-content .one-tier .play .title {
+  font-size: 0.3333333rem;
+  line-height: 0.5277777rem;
+}
+section .life-content .one-tier .play .sub-title {
+  font-size: 0.2685185rem;
+  line-height: 0.4351851rem;
+  color: #ff7878;
+}
+section .life-content .one-tier .play .play-content {
+  width: 100%;
+  height: 1.9907407rem;
+  box-sizing: border-box;
+  padding: 0.1666666rem 0 0 0.8055555rem;
+}
+section .life-content .one-tier .play .play-content .huawei {
+  float: left;
+  width: 1.2407407rem;
+  height: 1.5648148rem;
+  background: url(../img/huawei.png) no-repeat;
+  background-size: 100%;
+  margin-right: 0.8333333rem;
+}
+section .life-content .one-tier .play .play-content .oppo {
+  float: left;
+  width: 1.3703703rem;
+  height: 1.6388888rem;
+  background: url(../img/phone.png) no-repeat;
+  background-size: 100%;
+}
+section .life-content .three-tier {
+  width: 100%;
+  height: 3.2129629rem;
+}
+section .life-content .three-tier .baby {
+  float: left;
+  width: 2.4722222rem;
+  height: 3.2129629rem;
+  border-right: 0.0277777rem solid #F5F5F5;
+}
+section .life-content .three-tier .baby .head {
+  box-sizing: border-box;
+  padding: 0.2314814rem 0 0 0.2777777rem;
+  width: 2.4722222rem;
+  height: 1.2129629rem;
+}
+section .life-content .three-tier .baby .head .title {
+  font-size: 0.3611111rem;
+  line-height: 0.5462962rem;
+}
+section .life-content .three-tier .baby .head .sub-title {
+  font-size: 0.2685185rem;
+  line-height: 0.4351851rem;
+  color: #ff5959;
+}
+section .life-content .three-tier .baby .baby-content {
+  width: 100%;
+  height: 1.9907407rem;
+}
+section .life-content .three-tier .baby .baby-content .baby-pic {
+  display: block;
+  width: 1.4814814rem;
+  height: 1.4166666rem;
+  background: url(../img/baby-pic.png) no-repeat;
+  background-size: 100%;
+  margin: auto;
+  margin-top: 0.3518518rem;
+}
+section .beverages-add {
+  display: block;
+  width: 9.3518518rem;
+  height: 2.5185185rem;
+  background: url(../img/yingliao-add.png) no-repeat;
+  background-size: 100%;
+  margin: auto;
+  margin-top: 0.4166666rem;
+}
+section .discounts-title {
+  display: block;
+  margin-top: 0.3055555rem;
+  width: 3.9814814rem;
+  height: 0.7685185rem;
+  background: url(../img/sale.png) no-repeat;
+  background-size: 100%;
+  margin: auto;
+}
+section .discounts-content {
+  width: 100%;
+  height: 6.4351851rem;
+  background: #FFFFFF;
+}
+section .discounts-content .one-tier {
+  width: 100%;
+  height: 3.2037037rem;
+  border-bottom: 0.0277777rem solid #F5F5F5;
+}
+section .discounts-content .one-tier .quantity {
+  float: left;
+  position: relative;
+  width: 4.9722222rem;
+  height: 3.2037037rem;
+  border-right: 3px solid #F5F5F5;
+}
+section .discounts-content .one-tier .quantity .head {
+  box-sizing: border-box;
+  padding: 0.25rem 0 0 0.2777777rem;
+  width: 100%;
+  height: 1.2037037rem;
+}
+section .discounts-content .one-tier .quantity .head .title {
+  font-size: 0.3611111rem;
+  line-height: 0.5277777rem;
+}
+section .discounts-content .one-tier .quantity .head .sub-title {
+  font-size: 0.2685185rem;
+  height: 0.4351851rem;
+  color: #d663e1;
+}
+section .discounts-content .one-tier .quantity .quantity-content {
+  width: 100%;
+  height: 2rem;
+}
+section .discounts-content .one-tier .quantity .quantity-content .watches {
+  float: left;
+  width: 1.0092592rem;
+  height: 1.4351851rem;
+  background: url(../img/wach.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.9166666rem;
+  margin-top: 0.1944444rem;
+}
+section .discounts-content .one-tier .quantity .quantity-content .watches-title {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 2.824074rem;
+  width: 1.824074rem;
+  height: 0.3796296rem;
+  background: url(../img/wach-title.png) no-repeat;
+  background-size: 100%;
+}
+section .discounts-content .one-tier .quantity .quantity-content .shoe {
+  float: left;
+  width: 1.4351851rem;
+  height: 0.8888888rem;
+  background: url(../img/shoes.png) no-repeat;
+  background-size: 100%;
+  margin: 0.3703703rem 0 0 0.8888888rem;
+}
+section .discounts-content .one-tier .quantity-btn {
+  border-right: none;
+}
+section .discounts-content .two-tier {
+  width: 100%;
+  height: 3.2037037rem;
+}
+section .discounts-content .two-tier .try {
+  float: left;
+  width: 4.9722222rem;
+  height: 3.2037037rem;
+  border-right: 0.0277777rem solid #F5F5F5;
+}
+section .discounts-content .two-tier .try .head {
+  box-sizing: border-box;
+  padding: 0.25rem 0 0 0.2777777rem;
+  width: 100%;
+  height: 1.2037037rem;
+}
+section .discounts-content .two-tier .try .title {
+  font-size: 0.3611111rem;
+  line-height: 0.5277777rem;
+}
+section .discounts-content .two-tier .try .sub-title {
+  font-size: 0.2685185rem;
+  height: 0.4351851rem;
+  color: #d663e1;
+}
+section .discounts-content .two-tier .try .try-content {
+  width: 100%;
+  height: 2rem;
+  box-sizing: border-box;
+  padding: 0.1851851rem 0 0 0.5555555rem;
+}
+section .discounts-content .two-tier .try .try-content .nokia {
+  float: left;
+  width: 1.7222222rem;
+  height: 1.6851851rem;
+  background: url(../img/nokia.png) no-repeat;
+  background-size: 100%;
+}
+section .discounts-content .two-tier .try .try-content .television {
+  float: left;
+  width: 1.6574074rem;
+  height: 1.2777777rem;
+  background: url(../img/television.png) no-repeat;
+  background-size: 100%;
+  margin: 0.1759259rem 0 0 0.4259259rem;
+}
+section .discounts-content .two-tier .roll {
+  float: left;
+  width: 2.4722222rem;
+  height: 3.2037037rem;
+  border-right: 0.0277777rem solid #F5F5F5;
+}
+section .discounts-content .two-tier .roll .head {
+  box-sizing: border-box;
+  padding: 0.25rem 0 0 0.2777777rem;
+  width: 100%;
+  height: 1.2037037rem;
+}
+section .discounts-content .two-tier .roll .title {
+  font-size: 0.3611111rem;
+  line-height: 0.5277777rem;
+}
+section .discounts-content .two-tier .roll .sub-title {
+  font-size: 0.2685185rem;
+  height: 0.4351851rem;
+  color: #d663e1;
+}
+section .discounts-content .two-tier .roll .roll-content {
+  width: 100%;
+}
+section .discounts-content .two-tier .roll .roll-content .roll-pic {
+  width: 1.6203703rem;
+  height: 0.537037rem;
+  background: url(../img/roll-pic.png) no-repeat;
+  background-size: 100%;
+  margin: auto;
+  margin-top: 0.7592592rem;
+}
+section .discounts-content .two-tier .roll-btn {
+  border-right: none;
+}
+section .fashion-head {
+  display: block;
+  width: 4.7685185rem;
+  height: 0.75rem;
+  background: url(../img/fashion.png) no-repeat;
+  background-size: 100%;
+  margin-top: 0.3148148rem;
+  margin-left: 2.4629629rem;
+}
+section .book-add {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5277777rem;
+  width: 9.1759259rem;
+  height: 2.5rem;
+  background: url(../img/book-add.png) no-repeat;
+  background-size: 100%;
+}
+section .good-head {
+  width: 100%;
+  height: 0.787037rem;
+  margin-top: 0.287037rem;
+}
+section .good-head .title {
+  float: left;
+  margin-left: 2.5277777rem;
+  width: 4.574074rem;
+  height: 0.7777777rem;
+  background: url(../img/find-head.png) no-repeat;
+  background-size: 100%;
+}
+section .good-head .more {
+  float: right;
+  width: 1.787037rem;
+  height: 0.6481481rem;
+  margin-right: 0.4166666rem;
+}
+section .good-head .more .word {
+  float: left;
+  font-size: 0.3055555rem;
+  line-height: 0.6481481rem;
+  color: #969696;
+}
+section .good-head .more .ico {
+  float: right;
+  width: 0.3333333rem;
+  height: 0.3333333rem;
+  background: url(../img/more-ico.png) no-repeat;
+  background-size: 100%;
+  margin-top: 0.1388888rem;
+}
+section .good-content {
+  width: 9.537037rem;
+  height: 3.6296296rem;
+  margin: auto;
+}
+section .good-content .bull {
+  float: left;
+  width: 4.7037037rem;
+  height: 5.074074rem;
+  background: #FFFFFF;
+  border-right: 0.0555555rem solid #F5F5F5;
+}
+section .good-content .bull .head {
+  width: 100%;
+  height: 1.3333333rem;
+  padding: 0.2685185rem 0 0 0.3148148rem;
+  box-sizing: border-box;
+}
+section .good-content .bull .head .title {
+  font-size: 0.3611111rem;
+  line-height: 0.5277777rem;
+}
+section .good-content .bull .head .sub-title {
+  font-size: 0.2685185rem;
+  height: 0.4351851rem;
+  color: #d663e1;
+}
+section .good-content .bull .bull-content {
+  width: 100%;
+  height: 3.7407407rem;
+  padding-top: 0.1111111rem;
+  box-sizing: border-box;
+}
+section .good-content .bull .bull-content .bull-jpg {
+  height: 2.9629629rem;
+}
+section .good-content .bull .bull-content .bull-jpg .one-jpg {
+  float: left;
+  width: 2.9166666rem;
+  height: 2.9074074rem;
+  background: url(../img/one-jg.png) no-repeat;
+  background-size: 100%;
+  margin-left: 0.1481481rem;
+}
+section .good-content .bull .bull-content .bull-jpg .two-jpg {
+  float: right;
+  width: 1.4351851rem;
+  height: 1.4259259rem;
+  background: url(../img/two.png) no-repeat;
+  background-size: 100%;
+  margin-right: 0.1481481rem;
+}
+section .good-content .bull .bull-content .bull-jpg .three-jpg {
+  float: right;
+  width: 1.4351851rem;
+  height: 1.4259259rem;
+  background: url(../img/three.png) no-repeat;
+  background-size: 100%;
+  margin-right: 0.1481481rem;
+}
+section .good-content .bull .bull-content .bottom-title {
+  width: 100%;
+  height: 0.6666666rem;
+}
+section .good-content .bull .bull-content .bottom-title .bull-logo {
+  float: left;
+  width: 0.9907407rem;
+  height: 0.2592592rem;
+  background: url(../img/bull-logo.png) no-repeat;
+  background-size: 100%;
+  margin: 0.2222222rem 0.4907407rem 0 0.3611111rem;
+}
+section .good-content .bull .bull-content .bottom-title .name {
+  float: left;
+  font-size: 0.287037rem;
+  line-height: 0.574074rem;
+}
+footer {
+  width: 100%;
+  height: 1.3703703rem;
+  position: absolute;
+  background: #FFFFFF;
+  left: 0;
+  bottom: 0;
+  border-top: 2px solid #cbcbcb;
+}
+footer .foot-list {
+  width: 100%;
+  height: 1.1296296rem;
+  margin-top: 0.2129629rem;
+}
+footer .foot-list li {
+  float: left;
+  font-size: 0.2592592rem;
+  text-align: center;
+  width: 20%;
+  height: 100%;
+  line-height: 0.5648148rem;
+  color: #2c2c2f;
+}
+footer .foot-list li .ico {
+  margin: auto;
+  display: block;
+}
+footer .foot-list li .red-btn {
+  color: #f23030;
+}
+footer .foot-list li .index-ico {
+  width: 0.6388888rem;
+  height: 0.5555555rem;
+  background: url(../img/index.png) no-repeat;
+  background-size: 100%;
+  margin-top: 0.0092592rem;
+}
+footer .foot-list li .type-ico {
+  width: 0.574074rem;
+  height: 0.5277777rem;
+  background: url(../img/type-ico.png) no-repeat;
+  background-size: 100%;
+  margin-top: 4px;
+}
+footer .foot-list li .find-ico {
+  width: 0.5555555rem;
+  height: 0.5555555rem;
+  background: url(../img/find-ico.png) no-repeat;
+  background-size: 100%;
+  margin-top: 3px;
+}
+footer .foot-list li .shop-ico {
+  width: 0.6111111rem;
+  height: 0.5555555rem;
+  background: url(../img/shop-ico.png) no-repeat;
+  background-size: 100%;
+  margin-top: 4px;
+}
+footer .foot-list li .my-ico {
+  width: 0.5648148rem;
+  height: 0.6018518rem;
+  background: url(../img/my.png) no-repeat;
+  background-size: 100%;
+}
