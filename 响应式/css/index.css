@@ -1,0 +1,549 @@
+.h_head{
+	width: 100%;
+	height: 37px;
+	font-size: 12px;
+	line-height: 37px;
+	color: #262626;
+	margin-bottom: 6px;
+}
+
+.h_head .wrap .logo{
+	float: left;
+	width: 108px;
+	height: 23px;
+	background: url(../img/lpgo.png) no-repeat;
+	margin: 6px 45px 0 0;
+}
+.h_head .wrap .nav{
+	float: left;
+}
+.h_head .wrap .nav .size-btn{
+	font-size: 14px;
+}
+.h_head .wrap .nav a{
+	float: left;
+	width: 84px;
+	height: 37px;
+}
+.h_head .wrap .nav .o{
+	width: 92px;
+}
+.h_head .wrap .nav .w{
+	width: 116px;
+}
+.h_head .wrap .nav .s{
+	width: 102px;
+}
+.h_head .wrap .nav .x{
+	width: 88px;
+}
+.h_head .wrap .nav .more-ico{
+	float: right;
+	width: 13px;
+	height: 8px;
+	background: url(../img/xuebitu-ico.png) no-repeat;
+	margin: 17px 36px 0 0;
+}
+.h_head .wrap .hidden-btn{
+	float:left;
+	width: 13px;
+	height: 50px;
+	margin-left: 11px;
+	border-left: 1px solid #e5e5e5;
+	display: none;
+}
+.h_head .wrap .hidden-btn .right-btns{
+	float: right;
+	width: 9px;
+	height: 15px;
+	background: url(../img/xuebitu-ico.png) -17px -11px no-repeat;
+	margin-top: 15px;
+}
+.h_head .wrap .function{
+	float: right;
+	margin-right: 13px;
+	width: 119px;
+	height: 37px;
+}
+.wrap .function .ico{
+	float: left;
+	background: url(../img/xuebitu-ico.png) no-repeat;
+}
+.wrap .function .search{
+	width: 17px;
+	height: 16px;
+	background-position: 0 -8px;
+	margin: 10px 32px 0 0;
+}
+.wrap .function .shop{
+	width: 15px;
+	height: 13px;
+	background-position: 0 -25px;
+	margin-top: 12px;
+}
+.wrap .function .login{
+	float: right;
+}
+
+/* 隐藏头部*/
+.head_2{
+	width: 100%;
+	height: 50px;
+		display: none;
+}
+.head_2 .head_2_content{
+	width: 492px;
+	margin: auto;
+	
+	box-sizing: border-box;
+}
+.head_2 .head_2_content .nav-box{
+	float:left;
+	width: 20px;
+	height: 11px;
+	background: url(../img/xuebitu-ico.png) -17px 0 no-repeat;
+	margin: 20px 0 0 15px;
+}
+.head_2 .head_2_content .head_2_logo{
+	float: left;
+	width: 108px;
+	height:50px;
+	background: url(../img/lpgo.png) 0px 11px no-repeat;
+	margin-left: 175px;
+}
+.head_2 .head_2_content .head_2_right{
+	float:right;
+	width: 44px;
+	height: 16px;
+	margin-top: 17px;
+}
+.head_2 .head_2_content .head_2_right .head_2_search{
+	float: left;
+	width: 17px;
+	height: 16px;
+	background: url(../img/xuebitu-ico.png)  0 -8px no-repeat;
+}
+.head_2 .head_2_content .head_2_right .head_2_login{
+	float: right;
+	width: 15px;
+	height: 13px;
+	background: url(../img/xuebitu-ico.png)  0 -25px no-repeat;
+
+}
+.banner_1 img{
+	display: block;
+	width: 1215px;
+	margin: auto;
+	margin-bottom: 48px;
+	}
+.banner_1_btn img{
+	display: block;
+	width: 100%;
+	display: none;
+}
+.list_1{
+	width: 1143px;
+	margin: 0 auto;
+}
+.list_1 li{
+	float:left;
+	width: 267px;
+	height: 246px;
+	margin-right: 24px;
+	font-size: 14px;
+	line-height:21px;
+	color: #000000;
+}
+.list_1 li a{
+	display: block;
+}
+.list_1 .no-margin{
+	margin-right: 0;
+}
+.list_1 .book .book_pic img{
+	width: 100%;
+	margin-bottom: 12px;
+}
+.list_1 .book .title{
+	font-weight: bold;
+	font-size: 21px;
+	color: #0d0d0d;
+	line-height: 28px;
+}
+.list_1 .buy{
+	width: 76px;
+	height: 38px;
+}
+.list_1 .buy .buy-word{
+	float: left;
+	line-height: 38px;
+	color: #0067b8;
+}
+.list_1 .buy .ico{
+	float: right;
+	width: 8px;
+	height: 13px;
+	background: url(../img/xuebitu-ico.png) 0 -37px no-repeat;
+	margin-top: 13px;
+}
+.banner_2 img{
+	display: block;
+	width:1215px;
+	margin: auto;
+	margin-top: 70px;
+}
+.banner_2_btn img{
+	display: block;
+	width: 100%;
+	display: none;
+}
+.work{
+	width: 1143px;
+	margin: auto;
+	margin-top: 32px;
+}
+.work .head{
+	width: 100%;
+	height: 64px;
+}
+.work .head .title{
+	font-size: 24px;
+	line-height: 64px;
+}
+.work .list_2 li{
+	float: left;
+	width: 267px;
+	height: 270px;
+	margin-right: 24px;
+	font-size: 14px;
+	line-height: 21px;
+}
+.work .list_2 .no-margin{
+	margin-right: 0;
+}
+.work .list_2 .office a{
+	display: block;
+}
+.work .list_2 .office .office-pic img{
+	width: 100%;
+	margin-bottom: 12px;
+}
+.work .list_2 .office .office-title{
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 29px;
+}
+.work .list_2 .office .more{
+	width: 70px;
+	height: 38px;
+}
+.list_2 .office .more .office-word{
+	color: #0067b8;
+	float: left;
+	font-size: 12px;
+	line-height: 38px;
+}
+.list_2 .office .more .ico{
+	float: right;
+	width: 8px;
+	height: 13px;
+	background: url(../img/xuebitu-ico.png) 0 -37px no-repeat;
+	margin-top: 13px;
+}
+.banner_3 img{
+	display: block;
+	width: 1215px;
+	margin: auto;
+	margin-bottom: 48px;
+}
+.banner_3_btn img{
+	display: block;
+	width: 100%;
+	display: none;
+}
+.wrap-btn{
+	width: 1215px;
+	margin: 0 auto;
+}
+.other{
+	width: 100%;
+	font-size: 14px;
+	color: #666666;
+}
+.other .gz{
+	float: left;
+	line-height: 29px;
+}
+.other .btns{
+	float: left;
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+}
+.other .vx{
+	background: url(../img/vx.png);
+	margin: 0 12px;
+}
+.other .wb{
+	background: url(../img/wb.png);
+}
+footer{
+	width: 100%;
+	background: #f2f2f2;
+	color:#616161;
+	font-size: 12px;
+	margin-top: 48px;
+	padding-top: 34px;
+	box-sizing: border-box;
+	line-height: 34px;
+}
+footer .foot_list{
+	margin-bottom: 39px;
+}
+.foot_list li{
+	float: left;
+}
+.foot_list .new{
+	margin-right: 98px;
+}
+.foot_list li a,span{
+	display: block;
+}
+.foot_list span{
+	font-weight: bold;
+	font-size: 14px;
+	line-height:25px;
+}
+.foot_list .support{
+	margin-right: 98px;
+}
+.foot_list .education{
+	margin-right: 34px;
+}
+.foot_list .enterprise{
+	margin-right: 88px;
+}
+.foot_list .exploit{
+	margin-right: 62px;
+}
+footer .wrap .copy .left{
+	float: left;
+	width: 87px;
+	height: 19px;
+}
+footer .wrap .copy{
+	font-size: 12px;
+	color: #616161;
+	line-height: 19px;
+}
+.wrap .copy .left .c_ico{
+	float: left;
+	width: 20px;
+	height: 19px;
+	background: url(../img/c_ico.png) no-repeat;
+	margin-right: 10px;
+}
+.wrap .copy .left .c{
+	float: left;
+}
+.wrap .copy .right{
+	float: right;
+	margin-right: 26px;
+}
+.wrap .copy .right a{
+	float: left;
+	margin-right: 26px;
+}
+.wrap .copy .right span{
+	float: left;
+	margin-right: 26px;
+}
+.wrap .copy .right .right-btn{
+	margin-right: 28px;
+}
+
+
+/*响应式css*/
+@media only all and (max-width:1083px) {
+	.wrap{
+		width: 1022px;
+		}
+	 .banner_1 img{
+	 	width: 100%;
+	 }
+	 .list_1{
+	 	display: flex;
+	 	justify-content: space-between;
+	 	flex-wrap:wrap;
+	 	width: 1010px;
+	 }
+	 .list_1 li{
+	 	width:494px;
+	 	height: 427px;
+	 	margin: 0;
+	 }
+	 .banner_2 img{
+	 	width: 100%;
+	 	margin-top: 0;
+	 }
+	 	.list_1 li .book img{
+	 		width: 100%;
+	}
+	.work{
+		width: 1010px;
+		}
+	.work .list_2{
+	 	display: flex;
+	 	justify-content: space-between;
+	 	flex-wrap:wrap;
+	 	width: 1010px;
+	 }
+	 .work .list_2 li{
+	 	width:494px;
+	 	height: 427px;
+	 	margin: 0;
+	 }
+	 .banner_3 img{
+	 	width: 100%;
+	 }
+	 footer .foot_list{
+	 	margin-bottom: 0;
+	 }
+	footer .foot_list .foot-margin{
+	 	margin-right: 236px;
+	 }
+	 footer .foot_list .foot-btns{
+	 	margin-top: 48px;
+	 }
+	 footer .copy{
+	 	display: none;
+	 }
+}
+@media only all and (max-width:799px) {
+	.wrap{
+		width: 738px;
+	}
+	.h_head .wrap .nav .w-btns{
+		width: 28px;
+	}
+	.h_head .nav .nav-btns{
+		display: none;
+	}
+	.h_head .wrap .hidden-btn{
+		display: block;
+		margin-right: 2px;
+	}
+	.list_1{
+	 	display: flex;
+	 	justify-content: space-between;
+	 	flex-wrap:wrap;
+	 	width: 727px;
+	 }
+	 .list_1 li{
+	 	width:352px;
+	 	height:347px;
+	 	margin: 0;
+	 }
+	 .work{
+		width:727px;
+		}
+	.work .list_2{
+	 	display: flex;
+	 	justify-content: space-between;
+	 	flex-wrap:wrap;
+	 	width:727px;
+	 }
+	 .work .list_2 li{
+	 	width:350px;
+	 	height:347px;
+	 	margin: 0;
+	 }
+	 .wrap .other{
+	 	width: 797px;
+	 }
+	 footer .foot_list{
+	 	width: 799px;
+	 }
+	 footer .foot_list .right-btn{
+	 	width: 259px;
+	 	margin-right: 0;
+	 }
+	 footer .copy{
+	 	display:block;
+	 }
+	 footer .copy-btn{
+	 	display: none;
+	 }
+	 .wrap .copy .right .j-btn{
+	 	margin-right: 0;
+	 }
+	 .wrap .copy .right{
+	 	margin-right:0px;
+	 }
+}
+@media only all and (max-width:539px) {
+	.wrap{
+		width:539px;
+	}
+	.h_head{
+		display: none;
+	}
+	.head_2{
+		display: block;
+	}
+	.banner_1 img{
+		display: none;
+	}
+	.banner_1_btn img{
+		display: block;
+		margin-bottom: 48px;
+	}
+	.list_1{
+	 	width:515px;
+	 }
+	 .list_1 li{
+	 	width:500px;
+	 	height: 439px;
+	 	margin: 0 auto;
+	 }
+	 .banner_2 img{
+		display: none;
+	}
+	.banner_2_btn img{
+		display: block;
+		margin-bottom: 48px;
+	}
+	 .work{
+		width:539px;
+		margin: auto;
+		}
+	.work .head .title{
+			width: 515px;
+			margin: auto;
+		}
+	.work .list_2{
+	 	width:515px;
+	 }
+	 .work .list_2 li{
+	 	width:500px;
+	 	height:439px;
+	 	margin: 0 auto;
+	 }
+	 .banner_3 img{
+		display: none;
+	}
+	.banner_3_btn img{
+		display: block;
+		margin-bottom: 48px;
+	}
+	.foot_list li{
+		float: none;
+		margin-left: 24px;
+	}
+	.foot_list .right-btn{
+		margin-bottom: 47px;
+	}
+	footer .wrap .copy{
+		display: none;
+	}
+}

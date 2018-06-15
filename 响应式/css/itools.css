@@ -1,0 +1,9 @@
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.wrap{
+	width: 1215px;
+	margin: 0 auto;
+}
