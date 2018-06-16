@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://jdc.jd.com/demo/ting/H5Game/jumping/index.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>指尖大冒险</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="http://img10.360buyimg.com/">
+  <link rel="dns-prefetch" href="http://img11.360buyimg.com/">
+  <link rel="dns-prefetch" href="http://img12.360buyimg.com/">
+  <link rel="dns-prefetch" href="http://img13.360buyimg.com/">
+  <link rel="dns-prefetch" href="http://img14.360buyimg.com/">
+  <link rel="dns-prefetch" href="http://img20.360buyimg.com/">
+  <link rel="dns-prefetch" href="http://img30.360buyimg.com/">
+  <link rel="dns-prefetch" href="http://wq.360buyimg.com/">
+
+  <!-- global:css -->
+  <link rel="stylesheet" type="text/css" href="./指尖大冒险_files/gb.min_979d4292.css">
+  <!-- endglobal -->
+
+  <link rel="stylesheet" type="text/css" href="./指尖大冒险_files/index.min_76517cde.css">
+</head>
+<!-- 注：加ontouchstart使css：active生效 -->
+
+<body ontouchstart="">
+
+  <!-- S 游戏开始 -->
+  <!-- 显示: in、隐藏：out  -->
+  <div class="jumping_alert out" id="J_startLayer">
+    <div class="jumping_alert_inner">
+      <div class="jumping_alert_tip">
+        <span class="jumping_alert_tip_arrow"></span>
+        <span class="jumping_alert_tip_arrow type_right"></span>
+      </div>
+      <p class="jumping_alert_desc">左右点击跳跃，避开障碍物</p>
+      <div class="jumping_alert_btn" id="J_startBtn">Start</div>
+    </div>
+  </div>
+  <!-- E 游戏开始 -->
+
+  <!-- S 游戏结束 -->
+  <!-- 显示: in、隐藏：out  -->
+  <div class="jumping_alert out" id="J_restarLayer">
+    <div class="jumping_alert_inner">
+      <p class="jumping_alert_text">游戏结束</p>
+      <div class="jumping_alert_btn" id="J_restartBtn">Restart</div>
+    </div>
+  </div>
+  <!-- E 游戏结束 -->
+
+  <!-- S 主舞台 -->
+  <div class="jumping_game">
+    <canvas class="jumping_game_canvas" id="J_game" width="3806" height="1796"></canvas>
+  </div>
+  <!-- E 主舞台 -->
+
+  <!-- global:js -->
+  <!-- endglobal -->
+  <script src="./指尖大冒险_files/createjs.min_54e1c372.js.下载"></script>
+
+  <script src="./指尖大冒险_files/index.min_2c9f4bf3.js.下载"></script>
+
+  <script>
+    (function() {
+      // 游戏初始化
+      Game.init({
+        onGameEnd: function(score) {
+          layerRestart.classList.toggle('in');
+          layerRestart.classList.toggle('out');
+          console.log("分数为：", score);
+        }
+      });
+      // 游戏预加载
+      Game.loader(function(progress) {
+        console.log("加载中", progress)
+      }, function() {
+        console.log("加载完成");
+        Game.run();
+      })
+      // 开始游戏
+      var btnStart = document.getElementById('J_startBtn');
+      var layerStart = document.getElementById('J_startLayer');
+      btnStart.addEventListener('click', function() {
+        layerStart.classList.toggle('in');
+        layerStart.classList.toggle('out');
+        window.Game.start();
+      })
+      // 重新开始
+      var btnRestart = document.getElementById('J_restartBtn');
+      var layerRestart = document.getElementById('J_restarLayer');
+      btnRestart.addEventListener('click', function() {
+        layerRestart.classList.toggle('in');
+        layerRestart.classList.toggle('out');
+        window.Game.restart();
+      })
+      // 禁止页面滑动
+      document.addEventListener('touchmove', function(e) {
+        e && e.preventDefault();
+      })
+    })();
+  </script>
+
+
+</body></html>
